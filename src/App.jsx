@@ -71,7 +71,7 @@ const PROJECTS = [
     id: 1,
     title: 'Portfolio Website',
     type: 'Fullstack',
-    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=600&h=400',
+    image: '/project-1.jpg',
     description: 'A full-stack e-commerce platform with React, Node.js, and MongoDB',
     tags: ['React', 'Tailwind CSS', 'Redux']
   },
@@ -79,7 +79,7 @@ const PROJECTS = [
     id: 2,
     title: 'Ecommerce App',
     type: 'Frontend',
-    image: 'https://images.unsplash.com/photo-1555421689-491a97ff2040?auto=format&fit=crop&q=80&w=600&h=400',
+    image: '/project-2.jpg',
     description: 'A beautiful Ecommerce application with drag-and-drop functionality',
     tags: ['Vue.js', 'Vuex', 'Tailwind CSS']
   },
@@ -87,7 +87,7 @@ const PROJECTS = [
     id: 3,
     title: 'Task Management System',
     type: 'Backend',
-    image: 'https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?auto=format&fit=crop&q=80&w=600&h=400',
+    image: '/project-3.jpg',
     description: 'Robust backend API for managing organizational tasks and workflows',
     tags: ['Spring Boot', 'MySQL', 'JWT']
   }
@@ -100,7 +100,7 @@ const TESTIMONIALS = [
     role: 'Product Manager, InnovateLabs',
     content: '"Mubarek is one of the most talented developers I have worked with. He not only writes clean code but also has great communication skills. Highly recommended!"',
     rating: 5,
-    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150&h=150'
+    avatar: '/avatar-1.jpg'
   },
   {
     id: 2,
@@ -108,7 +108,7 @@ const TESTIMONIALS = [
     role: 'CEO, TechStart',
     content: '"Delivered our project ahead of schedule with exceptional quality. His ability to understand our business needs and translate them into technical solutions is outstanding."',
     rating: 5,
-    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=150&h=150'
+    avatar: '/avatar-2.jpg'
   }
 ];
 
@@ -378,7 +378,7 @@ function App() {
               <div className="relative p-1.5 rounded-full bg-gradient-to-r from-accent-cyan to-purple-500 shadow-[0_0_30px_rgba(34,211,238,0.2)] dark:shadow-[0_0_40px_rgba(34,211,238,0.3)]">
                 <div className="p-2 rounded-full bg-white dark:bg-[#0f1624]">
                   <img 
-                    src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?auto=format&fit=crop&q=80&w=400&h=400" 
+                    src="/profile.jpg" 
                     alt="Mubarek" 
                     className="w-40 h-40 sm:w-56 sm:h-56 lg:w-80 lg:h-80 rounded-full object-cover"
                   />
@@ -397,7 +397,7 @@ function App() {
           >
             <motion.div variants={fadeUp} className="flex-1 w-full">
               <img 
-                src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?auto=format&fit=crop&q=80&w=600&h=600" 
+                src="/about.jpg" 
                 alt="About Mubarek" 
                 className="w-full max-w-sm lg:max-w-md mx-auto rounded-[2rem] object-cover shadow-xl dark:shadow-2xl dark:shadow-black/50"
               />
