@@ -357,7 +357,7 @@ function App() {
                 I build exceptional and accessible digital experiences for the web. Passionate about creating intuitive and responsive user interfaces.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2 lg:pt-4">
-                <a href="#" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-accent hover:bg-blue-600 text-white px-8 py-3.5 rounded-lg text-sm font-semibold transition-all">
+                <a href="/mubarek.PDF" download="mubarek.PDF" className="w-full sm:w-auto flex items-center justify-center gap-2 bg-accent hover:bg-blue-600 text-white px-8 py-3.5 rounded-lg text-sm font-semibold transition-all">
                   <Download size={18} /> Download CV
                 </a>
                 <a href="#contact" className="w-full sm:w-auto flex items-center justify-center px-8 py-3.5 rounded-lg text-sm font-semibold transition-all border border-slate-300 dark:border-slate-600 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-white">
